@@ -15,6 +15,8 @@ M.treesitter = {
     "bash",
     "lua",
     "norg",
+    "typescript",
+    "tsx",
   },
 }
 
@@ -29,6 +31,9 @@ M.nvimtree = {
         git = true,
       },
     },
+  },
+  view = {
+    side = "right",
   },
 }
 
