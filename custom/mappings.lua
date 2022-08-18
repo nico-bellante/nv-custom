@@ -3,8 +3,8 @@ local M = {}
 M.telescope = {
   n = {
     ["<leader><leader>"] = { "<cmd> Telescope<CR>", "open telescope" },
-    ["<leader><leader>o"] = { "<cmd> Telescope oldfiles<CR>", "open telescop oldfiles" },
-    ["\\\\"] = { "<cmd> Telescope oldfiles<CR>", "old files" },
+    ["<leader><leader>o"] = { "<cmd> Telescope oldfiles<CR>", "open telescope oldfiles" },
+    ["\\\\"] = { "<cmd>lua require('fzf-lua').files() <CR>", "fzf lua git files" },
     ["\\f"] = { "<cmd> Telescope live_grep<CR>", "open telescope live grep" },
   },
 }

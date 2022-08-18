@@ -57,4 +57,10 @@ return {
       "Gbrowse",
     },
   },
+  ["junegunn/fzf"] = {
+    run = "./install --bin",
+  },
+  ["ibhagwan/fzf-lua"] = {
+    requires = { "kyazdani42/nvim-web-devicons" },
+  },
 }
