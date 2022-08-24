@@ -21,6 +21,7 @@ M.treesitter = {
 }
 
 M.nvimtree = {
+  disable_netrw = false,
   git = {
     enable = true,
   },
@@ -50,6 +51,20 @@ M.blankline = {
     "lsp-installer",
     "norg",
     "",
+  },
+}
+
+M.mason = {
+  ensure_installed = {
+    -- lua stuff
+    "lua-language-server",
+    "stylua",
+
+    -- web dev
+    "css-lsp",
+    "html-lsp",
+    "typescript-language-server",
+    "json-lsp",
   },
 }
 

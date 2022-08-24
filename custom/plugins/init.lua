@@ -55,6 +55,7 @@ return {
       "Gdelete",
       "Gremove",
       "Gbrowse",
+      "GBrowse",
     },
   },
   ["junegunn/fzf"] = {
@@ -62,5 +63,10 @@ return {
   },
   ["ibhagwan/fzf-lua"] = {
     requires = { "kyazdani42/nvim-web-devicons" },
+  },
+  ["tpope/vim-rhubarb"] = {
+    cmd = {
+      "GBrowse",
+    },
   },
 }
